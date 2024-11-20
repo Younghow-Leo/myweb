@@ -1,10 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-    <title>Welcome</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎 - YounghowLeo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        .hero {
+            padding: 100px 0;
+            background: linear-gradient(45deg, #2196F3, #00BCD4);
+            color: white;
+        }
+        .section {
+            padding: 40px 0;
+        }
+        .welcome-section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, #2196F3, #00BCD4);
+            color: white;
+        }
+        .welcome-content {
+            text-align: center;
+        }
+        .contact-info {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-    <h1>My Website is Coming Soon!</h1>
-    <p>Stay tuned for more updates.</p>
+    <!-- 导航栏 -->
+    <nav class="blue darken-2">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">YounghowLeo</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 欢迎区域 -->
+    <div class="hero">
+        <div class="container center-align">
+            <h1>欢迎来到 YounghowLeo 的新网站</h1>
+            <p class="flow-text">探索、创新、分享</p>
+            <a class="waves-effect waves-light btn-large">了解更多</a>
+        </div>
+    </div>
+
+    <!-- 内容区域 -->
+    <div class="section grey lighten-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">关于我</span>
+                            <p>摸鱼小能手</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">技能</span>
+                            <p>UI：Material UI</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">项目</span>
+                            <p>查看我的作品集（没啥作品哈哈哈哈）</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 欢迎区域 -->
+    <div class="welcome-section">
+        <div class="welcome-content">
+            <h1>欢迎来到我的网站</h1>
+            <h4>YounghowLeo</h4>
+            <div class="contact-info">
+                <p class="flow-text">刘洋浩</p>
+                <p><i class="material-icons tiny">email</i> younghowleo@outlook.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="page-footer blue darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="white-text">联系我</h5>
+                    <p class="grey-text text-lighten-4">邮箱：contact@younghowleo.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 YounghowLeo
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
